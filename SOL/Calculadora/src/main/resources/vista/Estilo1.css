@@ -1,0 +1,43 @@
+.boton {
+    -fx-font-size: 16px;
+    -fx-border-radius: 5px;
+    -fx-text-fill: white;
+}
+
+/* Botones de números (0-9) → Azul */
+.boton-numero {
+    -fx-background-color: #2196F3; /* Azul */
+}
+
+.boton-numero:hover {
+    -fx-background-color: #1976D2; /* Azul más oscuro al pasar el mouse */
+}
+
+/* Botones de operadores (+, -, *, /) → Rojo */
+.boton-operador {
+    -fx-background-color: #F44336; /* Rojo */
+}
+
+.boton-operador:hover {
+    -fx-background-color: #D32F2F; /* Rojo más oscuro */
+}
+
+/* Botón "C" → Blanco con texto negro */
+.boton-c {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: gray;
+}
+
+.boton-c:hover {
+    -fx-background-color: lightgray;
+}
+
+/* Botón "=" → Verde */
+.boton-igual {
+    -fx-background-color: #4CAF50; /* Verde */
+}
+
+.boton-igual:hover {
+    -fx-background-color: #388E3C; /* Verde más oscuro */
+}
